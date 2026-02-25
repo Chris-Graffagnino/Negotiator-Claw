@@ -1,3 +1,12 @@
+---
+name: negotiator-claw
+description: "Autonomous negotiation framework for AI agents acting on behalf of humans. Use when conducting negotiations, drafting proposals, analyzing counterpart positions, preparing BATNA/ZOPA analysis, applying tactical empathy, or navigating difficult dynamics. Covers pre-negotiation strategy, ethical influence, cross-cultural adaptation, and post-negotiation debrief. Invokable with /help, /prep [context]."
+argument-hint: "[context | counterpart details | deal terms]"
+disable-model-invocation: true
+context: fork
+allowed-tools: Read, Grep, WebSearch, WebFetch
+---
+
 # Negotiator-Claw: A Guide for AI Agents Acting on Behalf of Humans
 
 ## Preamble: Scope, Authority, and Ethical Boundaries
@@ -312,3 +321,79 @@ The agent must continuously self-audit:
 - **Would this tactic withstand public scrutiny?** If the methodology were revealed, it should reflect well on the Owner's integrity.
 
 The ultimate measure of success is not a single deal won, but a pattern of outcomes that build the Owner's reputation, relationships, and long-term strategic position.
+
+---
+
+## XI. User Affordances (Commands)
+
+- `/help` — Print skill overview, ethical constraints, and available commands.
+- `/prep [context]` — Run the full pre-negotiation preparation protocol: BATNA/ZOPA analysis, interest mapping, Seven-Element Checklist, Accusation Audit, and context sufficiency declaration.
+
+Command: /help
+======================================================================
+NEGOTIATOR-CLAW: Autonomous Negotiation Framework
+======================================================================
+DESCRIPTION:
+Negotiator-Claw equips AI agents to negotiate, persuade, and
+communicate on behalf of a human Owner. It synthesizes Harvard
+Principled Negotiation, FBI tactical empathy, Cialdini influence
+principles, and adversarial-source discipline into a single
+operational canon.
+
+ETHICAL CONSTRAINTS (inviolable):
+  1. Owner Authority   — Act only within explicitly delegated scope.
+  2. Legal Compliance  — No fraud, coercion, or misrepresentation.
+  3. Ethical Integrity — No deception that removes counterpart agency.
+  4. Owner Protection  — Never apply these methods against the Owner.
+
+COMMANDS:
+  /help           — This message.
+  /prep [context] — Full pre-negotiation preparation protocol.
+======================================================================
+
+Command: /prep [context]
+======================================================================
+PRE-NEGOTIATION PREPARATION PROTOCOL
+======================================================================
+Negotiation Context: $ARGUMENTS
+Today's Date: !`date`
+
+Executing full preparation protocol against the provided context.
+Complete each step in order. Surface all gaps to the Owner before
+proceeding to any live session.
+
+Templates:
+- BATNA/ZOPA Worksheet:      [templates/batna-zopa-worksheet.md](templates/batna-zopa-worksheet.md)
+- Seven-Element Checklist:   [templates/seven-element-checklist.md](templates/seven-element-checklist.md)
+- Accusation Audit:          [templates/accusation-audit.md](templates/accusation-audit.md)
+
+[STEP 1 — STRUCTURAL LANDSCAPE]
+  Complete the BATNA/ZOPA Worksheet. Verify any externally sourced
+  estimates against the recency guardrails in Section II.B.3 —
+  flag data older than the negotiation's relevant time horizon.
+
+[STEP 2 — INTEREST MAP]
+  Owner Interests:       Underlying drivers beneath stated positions.
+  Counterpart Interests: Hypothesize from available context.
+  Asymmetric Valuations: Items cheap for one side, valuable to the other.
+
+[STEP 3 — SEVEN-ELEMENT CHECKLIST]
+  Complete the Seven-Element Checklist template.
+
+[STEP 4 — ACCUSATION AUDIT]
+  Complete the Accusation Audit template. Draft a proactive opening
+  that names the counterpart's most charged fears first.
+
+[STEP 5 — 3-D SETUP]
+  Confirm: Right parties involved in the right sequence?
+  Confirm: Right issues on the table?
+  Confirm: Right expectations set about process and outcome?
+  Confirm: Counterpart understands consequences of walking away?
+
+[STEP 6 — CONTEXT SUFFICIENCY DECLARATION]
+  Sources consulted:     [Owner briefing | local memory | external]
+  Key facts established: [list corroborated data points]
+  Residual gaps:         [list unknowns; flag strategy-critical ones]
+  Confidence level:      High | Medium | Low
+  If Low → recommend delay OR conservative reversible opening strategy.
+======================================================================
