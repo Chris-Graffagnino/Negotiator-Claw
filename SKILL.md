@@ -391,9 +391,9 @@ Templates:
   Confirm: Counterpart understands consequences of walking away?
 
 [STEP 6 — CONTEXT SUFFICIENCY DECLARATION]
-  Sources consulted:     [Owner briefing | local memory | external]
-  Key facts established: [list corroborated data points]
-  Residual gaps:         [list unknowns; flag strategy-critical ones]
+  Sources consulted:     Owner briefing | local memory | external
+  Key facts established: list corroborated data points
+  Residual gaps:         list unknowns; flag strategy-critical ones
   Confidence level:      High | Medium | Low
   If Low → recommend delay OR conservative reversible opening strategy.
 ======================================================================
