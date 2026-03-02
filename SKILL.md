@@ -330,8 +330,10 @@ The ultimate measure of success is not a single deal won, but a pattern of outco
 - `/prep [context]` — Run the full pre-negotiation preparation protocol: BATNA/ZOPA analysis, interest mapping, Seven-Element Checklist, Accusation Audit, and context sufficiency declaration.
 
 Command: /help
+
 ======================================================================
 NEGOTIATOR-CLAW: Autonomous Negotiation Framework
+
 ======================================================================
 DESCRIPTION:
 Negotiator-Claw equips AI agents to negotiate, persuade, and
@@ -349,11 +351,14 @@ ETHICAL CONSTRAINTS (inviolable):
 COMMANDS:
   /help           — This message.
   /prep [context] — Full pre-negotiation preparation protocol.
+
 ======================================================================
 
 Command: /prep [context]
+
 ======================================================================
 PRE-NEGOTIATION PREPARATION PROTOCOL
+
 ======================================================================
 Negotiation Context: $ARGUMENTS
 Today's Date: !`date`
@@ -396,4 +401,5 @@ Templates:
   Residual gaps:         list unknowns; flag strategy-critical ones
   Confidence level:      High / Medium / Low
   If Low → recommend delay OR conservative reversible opening strategy.
+
 ======================================================================
